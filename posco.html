@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,minimum-scale=1, maximum-scale=1, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <title>posco</title>
+</head>
+
+<body>
+
+    <div id="top_header">
+
+        <div id="top_all">
+
+            <!--               posco 로고 이미지 부분-->
+            <div id="logo_header_img">
+                <div id="logo_img"></div>
+            </div>
+
+            <!--                    메뉴-->
+            <div id="menu_header">
+                <ul>
+                    <li>회사소개</li>
+                    <li>제품</li>
+                    <li>ESG</li>
+                    <li>투자자정보</li>
+                    <li>홍보채널</li>
+                    <li>기업시민
+                        <div class="arrow"></div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div id="logo_box">
+                <div id="btn_change_mode">
+                    <div id="btn_change_mode_img"></div>
+                </div>
+                <div id="btn_change_language">
+                    <ul>
+                        <li class="language_KOR">KOR</li>
+                        <li class="language_ENG">ENG</li>
+                    </ul>
+                    <div class="btn_down"></div>
+
+                </div>
+                <div id="login">
+                    <span>로그인</span>
+                </div>
+
+                <div id="btn_search">
+                    <div id="btn_search_img"></div>
+                </div>
+                <div id="btn_menu">
+                    <div id="btn_menu_img"></div>
+                </div>
+            </div>
+
+            <div id="logo_header_img2">
+                <div id="logo_img2"></div>
+            </div>
+
+        </div>
+        <!--btn_search 버튼 눌렀을때 나오는 검색창div-->
+        <div id="header_search">
+            <div id="header_search_container">
+                <input type="text" placeholder="검색어를 입력해주세요" class="text_search">
+                <button class="button_search">
+
+                </button>
+            </div>
+            <div class="btn_close"></div>
+        </div>
+        <!--btn_search 버튼 눌렀을때 나오는 검색창div-->
+
+        <!--btn_menu 버튼 눌렀을때 나오는 검색창div-->
+        <div id="menu_all">
+            <div id="menu_all_top">
+                <div id="menu_all_container">
+                    <div id="menu_all_container_logo"></div>
+
+                    <div id="menu_all_container_submenu">
+                        <div id="menu_all_container_submenu_flag">
+                            <div id="menu_all_container_span_open" class="menu_all_container_span">하위메뉴 전체열기</div>
+                            <div id="menu_all_container_span_close" class="menu_all_container_span">하위메뉴 전체닫기</div>
+                            <div id="menu_all_container_btn_down" class="menu_all_container_btn"></div>
+                            <div id="menu_all_container_btn_up" class="menu_all_container_btn"></div>
+                        </div>
+                        <div id="menu_all_container_btn_close"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="menu_all_content_flag" style="position: relative;">
+
+                <div id="menu_all_content">
+                    <div id="menu_all_content_1">
+                        <!--메뉴 열었을 떄 [위] 메뉴의 첫 번째칸-->
+                        <div class="menu_all_content_sub">
+                            <div class="menu_all_content_sub_sub">
+                                <!--첫번째 칸의 첫 번째 서브메뉴-->
+                                <span>회사소개</span>
+                                <ul id="sub_1">
+                                    <li class="menu_all_content_sub_sub_title">비전</li>
+                                    <li class="menu_all_content_sub_sub_title">대표이사 메시지</li>
+                                    <li class="menu_all_content_sub_sub_title">포스코 CI</li>
+                                    <li class="menu_all_content_sub_sub_title">역사</li>
+                                    <li class="menu_all_content_sub_sub_title">그룹사</li>
+                                    <li class="menu_all_content_sub_sub_title">포스코 해외법인</li>
+                                </ul>
+                            </div>
+                            <div class="menu_all_content_sub_sub">
+                                <!--첫번째 칸의 두 번째 서브메뉴-->
+                                <span style="top: 360px;">제품</span>
+                                <ul id="sub_2">
+                                    <li class="menu_all_content_sub_sub_title">제품
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">친환경브랜드
+                                        <div class="arrow"></div>
+                                        <ul class="sub_sub_hide">
+                                            <li class="sub_submenu">
+                                                -INNOVILT(이노빌트)
+                                                <div class="arrow"></div>
+                                            </li>
+                                            <li class="sub_submenu">
+                                                -e Autopos(이 오토포스)
+                                                <div class="arrow"></div>
+                                            </li>
+                                            <li class="sub_submenu">
+                                                -Greenable(그린어블)
+                                                <div class="arrow"></div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--메뉴 열었을 떄 [위] 메뉴의 첫 번째칸-->
+
+                        <!--메뉴 열었을 떄 [위] 메뉴의 두 번째칸-->
+                        <div class="menu_all_content_sub">
+                            <div class="menu_all_content_sub_sub">
+                                <span style="margin-left: 50px">ESG</span>
+                                <ul id="sub_3">
+                                    <li class="menu_all_content_sub_sub_title">전략 및 정책
+                                        <ul class="sub_sub_hide">
+                                            <li>-ESG정책/가이드라인</li>
+                                            <li>-환경경영</li>
+                                            <li>-안전보건경영</li>
+                                            <li>-윤리경영</li>
+                                            <li>-공정거래</li>
+                                            <li>-지배구조</li>
+                                            <li>-지속가능 공급망</li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">보고서
+                                        <ul class="sub_sub_hide">
+                                            <li>-기업시민보고서</li>
+                                            <li>-기후행동보고서
+                                                <div class="arrow"></div>
+                                            </li>
+                                            <li>-책임광물보고서</li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">인증서
+                                        <ul class="sub_sub_hide">
+                                            <li>-지속가능성인증서</li>
+                                            <li>-안전인증서</li>
+                                            <li>-환경인증서</li>
+                                            <li>-품질인증서</li>
+                                            <li>-보안인증서</li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">이니셔티브
+                                        <ul class="sub_sub_hide">
+                                            <li>-글로벌 이니셔티브</li>
+                                            <li>-외부 수상</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!--메뉴 열었을 떄 [위] 메뉴의 두 번째칸-->
+
+                        <!--메뉴 열었을 떄 [위] 메뉴의 세 번째칸-->
+                        <div class="menu_all_content_sub">
+                            <div class="menu_all_content_sub_sub">
+                                <span>투자자정보</span>
+                                <ul id="sub_4">
+                                    <li class="menu_all_content_sub_sub_title">공고</li>
+                                    <li class="menu_all_content_sub_sub_title">재무정보
+                                        <ul class="sub_sub_hide">
+                                            <li>-신용등급</li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">IR 자료실
+                                        <ul class="sub_sub_hide">
+                                            <li>-감사보고서</li>
+                                            <li>-사업보고서</li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">공시
+                                        <ul class="sub_sub_hide">
+                                            <li>-국내공시</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--메뉴 열었을 떄 [위] 메뉴의 세 번째칸-->
+
+                        <!--메뉴 열었을 떄 [위] 메뉴의 네 번째칸-->
+                        <div class="menu_all_content_sub">
+                            <div class="menu_all_content_sub_sub">
+                                <span style="margin-left: 50px">홍보채널</span>
+                                <ul id="sub_5">
+                                    <li class="menu_all_content_sub_sub_title">
+                                        포스코 뉴스룸
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">
+                                        미디어라이브
+                                        <ul class="sub_sub_hide">
+                                            <li>-홍보영상</li>
+                                            <li>-광고영상</li>
+                                            <li>-인쇄광고</li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">
+                                        문화행사
+                                        <ul class="sub_sub_hide">
+                                            <li>-문화행사안내</li>
+                                            <li>-포항</li>
+                                            <li>-광양</li>
+                                            <li>-서울</li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">
+                                        견학신청
+                                        <ul class="sub_sub_hide">
+                                            <li>-견학안내</li>
+                                            <li>-park1538
+                                                <div class="arrow"></div>
+                                            </li>
+                                            <li>-광양제철소</li>
+                                            <li>-글로벌 안전센터
+                                                <div class="arrow"></div>
+                                            </li>
+                                            <li>-견학예약 확인/변경</li>
+                                            <li>-견학소감</li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">
+                                        Park1538
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">
+                                        포스코 미술관
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">
+                                        포스코 역사관
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">
+                                        포스코 소통보드
+                                        <div class="arrow"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--메뉴 열었을 떄 [위] 메뉴의 네 번째칸-->
+
+
+                    </div>
+                    <div id="menu_all_content_2">
+
+                        <!--메뉴 열었을 떄 <아래> 메뉴의 첫 번째칸-->
+                        <div class="menu_all_content_sub">
+                            <div class="menu_all_content_sub_sub">
+                                <span class="sub_span">인재채용
+                                    <div class="arrow"></div>
+                                </span>
+                            </div>
+                            <div class="menu_all_content_sub_sub">
+                                <span style="top: 180px;" class="sub_span">기업시민
+                                    <div class="arrow"></div>
+                                </span>
+                            </div>
+                        </div>
+                        <!--메뉴 열었을 떄 <아래> 메뉴의 첫 번째칸-->
+
+                        <!--메뉴 열었을 떄 <아래> 메뉴의 두 번째칸-->
+                        <div class="menu_all_content_sub">
+                            <div class="menu_all_content_sub_sub">
+                                <span style="left: 125px">신고센터</span>
+                                <ul id="sub_6">
+                                    <li class="menu_all_content_sub_sub_title">비윤리 신고
+                                        <ul class="sub_sub_hide">
+                                            <li>-신고보상제도</li>
+                                            <li>-신고하기</li>
+                                            <li>-처리결과확인</li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">갑질행위 신고
+                                        <ul class="sub_sub_hide">
+                                            <li>-신고하기</li>
+                                            <li>-처리결과확인</li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">직장 괴롭힘,성희롱 신고
+                                        <ul class="sub_sub_hide">
+                                            <li>-신고하기</li>
+                                            <li>-처리결과확인</li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">공정거래 상담</li>
+                                    <li class="menu_all_content_sub_sub_title">공정거래 신고</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--메뉴 열었을 떄 <아래> 메뉴의 두 번째칸-->
+
+                        <!--메뉴 열었을 떄 <아래> 메뉴의 세 번째칸-->
+                        <div class="menu_all_content_sub">
+                            <div class="menu_all_content_sub_sub">
+                                <span>고객지원</span>
+                                <ul id="sub_7">
+                                    <li class="menu_all_content_sub_sub_title">공지사항</li>
+                                    <li class="menu_all_content_sub_sub_title">FAQ</li>
+                                    <li class="menu_all_content_sub_sub_title">문의하기</li>
+                                    <li class="menu_all_content_sub_sub_title">업무별 연락처</li>
+                                    <li class="menu_all_content_sub_sub_title">검색센터</li>
+                                    <li class="menu_all_content_sub_sub_title">사이트맵</li>
+                                    <li class="menu_all_content_sub_sub_title">일일방문신청
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">장기출입신청
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">찾아오시는 길
+                                        <ul class="sub_sub_hide">
+                                            <li>-포항</li>
+                                            <li>-광양</li>
+                                            <li>-서울/송도</li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">관련사이트</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--메뉴 열었을 떄 <아래> 메뉴의 세 번째칸-->
+
+                        <!--메뉴 열었을 떄 <아래> 메뉴의 네 번째칸-->
+                        <div class="menu_all_content_sub">
+                            <div class="menu_all_content_sub_sub">
+                                <span>포스코 회원가입</span>
+                                <ul id="sub_8">
+                                    <li class="menu_all_content_sub_sub_title">로그인
+                                        <ul class="sub_sub_hide">
+                                            <li>-로그인</li>
+                                            <li>-회원가입</li>
+                                            <li>-아이디찾기/비밀번호 재발급</li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu_all_content_sub_sub_title">이용약관</li>
+                                    <li class="menu_all_content_sub_sub_title">개인정보처리방침</li>
+                                    <li class="menu_all_content_sub_sub_title">영상정보처리기기 운영,관리방침</li>
+                                    <li class="menu_all_content_sub_sub_title">이메일주소무단수집거부</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--메뉴 열었을 떄 <아래> 메뉴의 네 번째칸-->
+                    </div>
+                </div>
+
+                <div id="menu_all_content_961px">
+                    <div id="menu_all_content_961px_top">
+                        <span>로그인 | </span>
+                        <span><b>KOR</b></span>
+                        <span>ENG</span>
+                    </div>
+
+                    <div id="menu_all_content_961px_container">
+                        <ul>
+                            <li class="menu_li1">
+                                <span>회사소개</span>
+                               
+                                <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button1" id="up1">
+                                <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button1" id="down1">
+                                <ul class="menu_all_content_961px_submenu" id="sub1">
+                                    <li >비전</li>
+                                    <li >대표이사 메시지</li>
+                                    <li >포스코 CI</li>
+                                    <li >역사</li>
+                                    <li >그룹사</li>
+                                    <li >포스코 해외법인</li>
+                                </ul>
+                            </li>
+                            
+
+                            <li class="menu_li2">
+                                <span>제품</span>
+
+                                <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button2" id="up2">
+                                <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button2" id="down2">
+                                <ul class="menu_all_content_961px_submenu" id="sub2">
+                                    <li>제품
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <li>친환경브랜드</li>
+                                </ul>
+                            </li>
+                            
+                            <li class="menu_li3">
+                                <span>ESG</span>
+                                <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3" id="up3">
+                                <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3" id="down3">
+                                <ul class="menu_all_content_961px_submenu" id="sub3">
+                                    <li >전략 및 정책
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up3_1">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down3_1">
+                                        <ul class="menu_ul_961px" id="sub_sub_3_1">
+                                            <li>ESG정책/가이드라인</li>
+                                            <li>환경경영</li>
+                                            <li>안전보건경영</li>
+                                            <li>윤리경영</li>
+                                            <li>공정거래</li>
+                                            <li>지배구조</li>
+                                            <li>지속가능 공급망</li>
+                                        </ul>
+                                    </li>
+                                    <li >보고서
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up3_2">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down3_2">
+                                        <ul class="menu_ul_961px" id="sub_sub_3_2">
+                                            <li>기업시민보고서</li>
+                                            <li>기후행동보고서
+                                                <div class="arrow"></div>
+                                            </li>
+                                            <li>책임광물보고서</li>
+                                        </ul>
+                                    </li>
+                                    <li>인증서
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up3_3">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down3_3">
+                                        <ul class="menu_ul_961px" id="sub_sub_3_3">
+                                            <li>지속가능성인증서</li>
+                                            <li>안전인증서</li>
+                                            <li>환경인증서</li>
+                                            <li>품질인증서</li>
+                                            <li>보안인증서</li>
+                                        </ul>
+                                    </li>
+                                    <li>이니셔티브
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up3_4">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down3_4">
+                                        <ul class="menu_ul_961px" id="sub_sub_3_4">
+                                            <li>글로벌 이니셔티브</li>
+                                            <li>외부 수상</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            <li class="menu_li4">
+                                <span>투자자정보</span>
+                                <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button4" id="up4">
+                                <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button4" id="down4">
+                                <ul class="menu_all_content_961px_submenu" id="sub4">
+                                    <li >공고</li>
+                                    <li >재무정보
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up4_1">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down4_1">
+                                        <ul class="menu_ul_961px" id="sub_sub_4_1">
+                                            <li>신용등급</li>
+                                        </ul>
+                                    </li>
+                                    <li >IR 자료실
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up4_2">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down4_2">
+                                        <ul class="menu_ul_961px" id="sub_sub_4_2">
+                                            <li>감사보고서</li>
+                                            <li>사업보고서</li>
+                                        </ul>
+                                    </li>
+                                    <li >공시
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up4_3">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down4_3">
+                                        <ul class="menu_ul_961px" id="sub_sub_4_3">
+                                            <li>국내공시</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            <li class="menu_li5">
+                                <span>홍보채널</span>
+                                <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button5" id="up5">
+                                <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button5" id="down5">
+                                <ul class="menu_all_content_961px_submenu" id="sub5">
+                                    <li >
+                                        포스코 뉴스룸
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <li >
+                                        미디어라이브
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up5_1">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down5_1">
+                                        <ul class="menu_ul_961px" id="sub_sub_5_1">
+                                            <li>홍보영상</li>
+                                            <li>광고영상</li>
+                                            <li>인쇄광고</li>
+                                        </ul>
+                                    </li>
+                                    <li >
+                                        문화행사
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up5_2">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down5_2">
+                                        <ul class="menu_ul_961px" id="sub_sub_5_2">
+                                            <li>문화행사안내</li>
+                                            <li>포항</li>
+                                            <li>광양</li>
+                                            <li>서울</li>
+                                        </ul>
+                                    </li>
+                                    <li >
+                                        견학신청
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up5_3">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down5_3">
+                                        <ul class="menu_ul_961px" id="sub_sub_5_3">
+                                            <li>견학안내</li>
+                                            <li>park1538
+                                                <div class="arrow"></div>
+                                            </li>
+                                            <li>광양제철소</li>
+                                            <li>글로벌 안전센터
+                                                <div class="arrow"></div>
+                                            </li>
+                                            <li>견학예약 확인/변경</li>
+                                            <li>견학소감</li>
+                                        </ul>
+                                    </li>
+                                    <li >
+                                        Park1538
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <li >
+                                        포스코 미술관
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <li >
+                                        포스코 역사관
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <li >
+                                        포스코 소통보드
+                                        <div class="arrow"></div>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            <li class="menu_li6" style="border-bottom: none;height: 27px">
+                                <span>인재채용</span>
+                                <div class="arrow"></div>
+                                <ul class="menu_all_content_961px_submenu" id="sub6">
+                                    
+                                </ul>
+                            </li>
+                            
+                            <li class="menu_li7" style="border-bottom: none;height: 27px;">
+                                <span>기업시민</span>
+                                <div class="arrow"></div>
+                                <ul class="menu_all_content_961px_submenu" id="sub7">
+                                    
+                                </ul>
+                            </li>
+                            
+                            <li class="menu_li8">
+                                <span>신고센터</span>
+                                <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button8" id="up8">
+                                <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button8" id="down8">
+                                <ul class="menu_all_content_961px_submenu" id="sub8">
+                                    <li >비윤리 신고
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up8_1">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down8_1">
+                                        <ul class="menu_ul_961px" id="sub_sub_8_1">
+                                            <li>신고보상제도</li>
+                                            <li>신고하기</li>
+                                            <li>처리결과확인</li>
+                                        </ul>
+                                    </li>
+                                    <li >갑질행위 신고
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up8_2">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down8_2">
+                                        <ul class="menu_ul_961px" id="sub_sub_8_2">
+                                            <li>신고하기</li>
+                                            <li>처리결과확인</li>
+                                        </ul>
+                                    </li>
+                                    <li >직장 괴롭힘,성희롱 신고
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up8_3">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down8_3">
+                                        <ul class="menu_ul_961px" id="sub_sub_8_3">
+                                            <li>신고하기</li>
+                                            <li>처리결과확인</li>
+                                        </ul>
+                                    </li>
+                                    <li >공정거래 상담</li>
+                                    <li >공정거래 신고</li>
+                                </ul>
+                            </li>
+                            
+                            <li class="menu_li9">
+                                <span>고객지원</span>
+                                <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button9" id="up9">
+                                <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button9" id="down9">
+                                <ul class="menu_all_content_961px_submenu" id="sub9">
+                                    <li >공지사항</li>
+                                    <li >FAQ</li>
+                                    <li >문의하기</li>
+                                    <li >업무별 연락처</li>
+                                    <li >검색센터</li>
+                                    <li >사이트맵</li>
+                                    <li >일일방문신청
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <li >장기출입신청
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <li >찾아오시는 길
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up9_1">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down9_1">
+                                        <ul class="menu_ul_961px" id="sub_sub_9_1">
+                                            <li>포항</li>
+                                            <li>광양</li>
+                                            <li>서울/송도</li>
+                                        </ul>
+                                    </li>
+                                    <li >관련사이트</li>
+                                </ul>
+                            </li>
+                            
+                            <li class="menu_li10">
+                                <span>포스코 회원가입</span>
+                                <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button10" id="up10">
+                                <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button10" id="down10">
+                                <ul class="menu_all_content_961px_submenu" id="sub10">
+                                    <li >로그인
+                                        <img src="img/menu_all_btn_up.png" alt="" class="menu_961px_button3_1" id="up10_1">
+                                        <img src="img/menu_all_btn_down.png" alt="" class="menu_961px_button3_1" id="down10_1">
+                                        <ul class="menu_ul_961px" id="sub_sub_10_1">
+                                            <li>로그인</li>
+                                            <li>회원가입</li>
+                                            <li>아이디찾기/비밀번호 재발급</li>
+                                        </ul>
+                                    </li>
+                                    <li >이용약관</li>
+                                    <li >개인정보처리방침</li>
+                                    <li >영상정보처리기기 운영,관리방침</li>
+                                    <li >이메일주소무단수집거부</li>
+                                </ul>
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--btn_menu 버튼 눌렀을때 나오는 검색창div-->
+    </div>
+
+
+
+    <div id="wrap" class="swiper mySwiper">
+        <!--======================== top페이지 최상단 top_header시작=========================    -->
+
+
+        <!--======================== top페이지 최상단 top_header끝=========================    -->
+        <div class="swiper-wrapper">
+            <!--======================== top 페이지 시작===========================        -->
+            <div id="top" class="swiper-slide">
+
+
+
+                <!--======================== top페이지 중간 top_body시작=========================    -->
+                <div id="top_body" class="swiper imgSlide">
+                    <div id="slide_box" class="swiper-wrapper">
+                        <div class="swiper-slide slide_box_slide">
+                            <div id="slidebox_slide_div1" class="imgSlide1">
+                                <div class="text_box">
+                                    <span class="top_body_title">스페이스워크</span> <br>
+                                    <span class="top_body_content">철과 빛의 도시, 포항의 새로운 랜드마크</span>
+                                    <div class="btn_slide1">자세히보기</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--첫 번째 슬라이드 div-->
+                        <div class="swiper-slide  slide_box_slide">
+                            <div id="slidebox_slide_div2" class="imgSlide1">
+                                <div class="text_box">
+                                    <span class="top_body_title">Park1538</span>
+                                    <span class="top_body_content">시민과 미래를 향한 포스코의 새로운 문화공간</span>
+                                    <div class="btn_slide1">자세히보기</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--두 번째 슬라이드 div-->
+                        <div class="swiper-slide  slide_box_slide">
+                            <div id="slidebox_slide_div3" class="imgSlide1">
+                                <div class="text_box">
+                                    <span class="top_body_title">체인지업 그라운드</span>
+                                    <span class="top_body_content">실리콘밸리를 잇는 또 하나의 퍼시픽밸리</span>
+                                    <div class="btn_slide1">자세히보기</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--세 번째 슬라이드 div-->
+                        <div class="swiper-slide  slide_box_slide">
+                            <div id="slidebox_slide_div4" class="imgSlide1">
+                                <div class="text_box">
+                                    <span class="top_body_title">2030 부산세계박람회</span>
+                                    <img src="img/expo.png" alt="" class="expo_img">
+                                    <span class="top_body_content">포스코그룹이 2030 부산세계박람회 유치를 응원합니다.</span>
+                                    <div class="btn_slide1">자세히보기</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--네 번째 슬라이드 div-->
+                    </div>
+                </div>
+                <!--======================== top페이지 중간 top_body끝=========================    -->
+
+
+
+                <!--======================== top페이지  top_buttonwrap시작=========================    -->
+                <div id="top_buttonwrap">
+                    <div id="btn_left" class="swiper-button-prev"></div>
+                    <div>
+                        <ul id="ul_title">
+                            <li class="ul_title_li1 ">
+                                <span>스페이스워크</span>
+                                <div class="swiper-line"></div>
+                            </li>
+
+                            <li class="ul_title_li2">
+                                <span>Park1538</span>
+                            </li>
+
+                            <li class="ul_title_li3">
+                                <span>체인지업 그라운드</span>
+                            </li>
+
+                            <li class="ul_title_li4">
+                                <span>2030 부산세계박람회</span>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div id="btn_stop"></div>
+                    <div id="btn_play"></div>
+                    <div id="btn_right" class="swiper-button-next"></div>
+                </div>
+
+                <!--======================== top페이지  top_buttonwrap끝=========================    -->
+
+                <!--======================== top페이지  top_footer시작=========================    -->
+                <div id="top_footer">
+                    <div id="top_footer_view">
+                        <div id="top_footer_view_container">
+                            <div id="footer_btn_up" class="swiper-button-up"></div>
+                <div id="footer_btn_down" class="swiper-button-down"></div>
+                            <div id="top_footer_textbox" class="swiper footerSwiper">
+                                <div class="swiper-wrapper">
+                                    <div id="top_footer_textbox_text" class="swiper-slide">
+                                        <span class="top_footer_textbox_text_subtitle">안전보건경영방침</span>
+                                        <span class="top_footer_textbox_text_text">포스코는 더불어 함께 발전하는 기업시민으로서 포스코에 출입하는
+                                            모두가 안전하고 쾌적한 근무환경을 조성하여 재해예방 및 건강과 삶의 질 향상을 추구합니다.</span>
+                                    </div>
+
+                                    <div id="top_footer_textbox_text" class="swiper-slide">
+                                        <span class="top_footer_textbox_text_subtitle">포스코홀딩스</span>
+                                        <span class="top_footer_textbox_text_text">리얼밸류 경영을 통해 포스코그룹의 가치를 획기적으로 제고해
+                                            나갑니다.</span>
+                                    </div>
+
+                                    <div id="top_footer_textbox_text" class="swiper-slide">
+                                        <span class="top_footer_textbox_text_subtitle">World EXPO 2030</span>
+                                        <span class="top_footer_textbox_text_text">2030 세계박람회는 대한민국 부산에서! 포스코그룹이 2030
+                                            부산세계박람회 유치를 응원합니다. </span>
+                                    </div>
+
+                                    <div id="top_footer_textbox_text" class="swiper-slide">
+                                        <span class="top_footer_textbox_text_subtitle">LOVELETTER</span>
+                                        <span class="top_footer_textbox_text_text">우리 사회 저출산 문제에 대응하여 기업이 해야 할 역할을 테마가
+                                            있는 '기업시민 러브레터'에 제안해 주세요.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                <!--======================== top페이지  top_footer끝=========================    -->
+            </div>
+
+            <!--======================== top 페이지 끝===========================        -->
+
+
+            <!--======================== product 페이지 시작===========================        -->
+
+            <div id="product" class="swiper-slide">
+                <div id="product_container">
+                    <div id="product_container_inner">
+
+                        <div id="product_container_span">
+                            <h1>POSCO PRODUCTS</h1>
+                            <span>혁신적인 제품개발과 이용기술을 통한 고객가치 향상을 실현합니다.</span>
+                        </div>
+                        <div id="product_container_product_slide" class="swiper productSwiper">
+                            <div id="product_slide_wrap" class="swiper-wrapper">
+                                <div id="product_slide" class="swiper-slide">
+                                    <div id="product_slide_1_img" class="img">
+                                        <img src="img/products_slide_01.jpg" alt="">
+                                    </div>
+                                    <span>INDUSTRIES</span>
+                                </div>
+                                <div id="product_slide" class="swiper-slide">
+                                    <div id="product_slide_2_img" class="img">
+                                        <img src="img/products_slide_02.jpg" alt="">
+                                    </div>
+                                    <span>PRODUCTS</span>
+                                </div>
+                                <div id="product_slide" class="swiper-slide">
+                                    <div id="product_slide_3_img" class="img">
+                                        <img src="img/products_slide_03.jpg" alt="">
+                                    </div>
+                                    <span>MEGA TREND</span>
+                                </div>
+                                <div id="product_slide" class="swiper-slide">
+                                    <div id="product_slide_4_img" class="img">
+                                        <img src="img/products_slide_04.jpg" alt="">
+                                    </div>
+                                    <span>APPLICATION TECHNOLOGY</span>
+                                </div>
+                                <div id="product_slide" class="swiper-slide">
+                                    <div id="product_slide_5_img" class="img">
+                                        <img src="img/products_slide_05.jpg" alt="">
+                                    </div>
+                                    <span>INNOVILT (이노빌트)</span>
+                                </div>
+                                <div id="product_slide" class="swiper-slide">
+                                    <div id="product_slide_6_img" class="img">
+                                        <img src="img/products_slide_06.jpg" alt="">
+                                    </div>
+                                    <span>e Autopos (이 오토포스)</span>
+                                </div>
+                                <div id="product_slide" class="swiper-slide">
+                                    <div id="product_slide_7_img" class="img">
+                                        <img src="img/products_slide_07.jpg" alt="">
+                                    </div>
+                                    <span>Greenable (그린어블)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div id="prodcut_util">
+                        <div id="product_btn_left" class="swiper-button-left"></div>
+                        <span id="product_cnt_now">01</span>
+                        <div class="slash"></div>
+                        <span id="product_cnt_all">07</span>
+                        <div id="product_btn_right" class="swiper-button-right"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--======================== product 페이지 끝===========================        -->
+
+            <!--======================== ESG 페이지 시작===========================        -->
+            <div id="ESG" class="swiper-slide">
+                <div id="ESG_container">
+                    <div id="ESG_container_inner">
+                        <div id="ESG_container_span">
+                            <h1>ESG</h1>
+                            <span>투명하고 책임감있는 ESG 경영을 통한 기업시민 포스코 실현하겠습니다.</span>
+                        </div>
+                        <div id="ESG_container_inner_btn_left" class="swiper-button-esg-left"></div>
+                        <div id="ESG_container_inner_btn_right" class="swiper-button-esg-right"></div>
+
+                        <div id="ESG_container_inner_slide" class="swiper ESGSwiper">
+
+                            <div id="ESG_container_inner_slide_wrap" class="swiper-wrapper">
+                                <div id="ESG_container_inner_slide_wrap_slide" class="swiper-slide">
+                                    <img src="img/esg_slide_01.jpg" alt="">
+                                    <h1>기업시민보고서</h1>
+                                    <span>지속가능한 미래를 위한 포스코의 '기업시민' 경영이념과 그에 맞춘 Business, Society, People 분야의 성과를
+                                        담았습니다.</span>
+                                    <div class="ESG_btn_info">
+                                        <span>자세히보기</span>
+                                    </div>
+                                </div>
+
+                                <div id="ESG_container_inner_slide_wrap_slide" class="swiper-slide">
+                                    <img src="img/esg_slide_02.jpg" alt="">
+                                    <h1>ESG Factbook</h1>
+                                    <span>환경, 사회, 거버넌스 분야에서 회사가 지속 관리해야할 중요한 ESG 지표를 선정하고, 최근 4년간 Data를 투명하게
+                                        공개하였습니다.</span>
+                                    <div class="ESG_btn_info">
+                                        <span>자세히보기</span>
+                                    </div>
+                                </div>
+
+                                <div id="ESG_container_inner_slide_wrap_slide" class="swiper-slide">
+                                    <img src="img/esg_slide_03.jpg" alt="">
+                                    <h1>ESG Factbook</h1>
+                                    <span>지속가능한 미래를 위한 포스코의 '기업시민' 경영이념과 그에 맞춘 Business, Society, People 분야의 성과를
+                                        담았습니다.</span>
+                                    <div class="ESG_btn_info">
+                                        <span>자세히보기</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="ESG_container_inner_util">
+                            <span id="ESG_cnt_now">01</span>
+                            <div class="slash"></div>
+                            <span id="ESG_cnt_all">03</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <!--======================== ESG 페이지 끝===========================        -->
+
+            <!--======================== newsRoom 페이지 시작===========================        -->
+
+            <div id="newsRoom" class="swiper-slide">
+                <div id="nR_container">
+                    <div id="nR_container_span">
+                        <span># 포스코그룹의 소식을 전합니다</span>
+                    </div>
+
+                    <div id="nR_container_inner">
+
+                        <div id="nR_container_inner_slide">
+                            <div id="nR_container_inner_slide_banner" class="swiper newsSwiper">
+                                <div id="nR_container_inner_slide_wrap" class="swiper-wrapper">
+                                    <div id="nR_container_inner_slide_wrap_slide" class="swiper-slide">
+                                        <img src="img/news_68.jpg" alt="" id="news_img">
+                                        <span id="nR_container_inner_slide_wrap_slide_subtitle">포스코 ‘그린어블 에이치투(Greenable
+                                            H2)’로 에너진과 ...</span>
+                                        <span id="nR_container_inner_slide_wrap_slide_date">2022.12.15</span>
+                                    </div>
+                                    <div id="nR_container_inner_slide_wrap_slide" class="swiper-slide">
+                                        <img src="img/news_67.jpg" alt="" id="news_img">
+                                        <span id="nR_container_inner_slide_wrap_slide_subtitle">엑스포로 보는 위대한 유산
+                                            이야기</span>
+                                        <span id="nR_container_inner_slide_wrap_slide_date">2022.12.14</span>
+                                    </div>
+                                    <div id="nR_container_inner_slide_wrap_slide" class="swiper-slide">
+                                        <img src="img/news_66.jpg" alt="" id="news_img">
+                                        <span id="nR_container_inner_slide_wrap_slide_subtitle">농땡이 피우는 거 아니에요. 여기
+                                            회사예요!!</span>
+                                        <span id="nR_container_inner_slide_wrap_slide_date">2022.12.14</span>
+                                    </div>
+                                    <div id="nR_container_inner_slide_wrap_slide" class="swiper-slide">
+                                        <img src="img/news_65.jpg" alt="" id="news_img">
+                                        <span id="nR_container_inner_slide_wrap_slide_subtitle">포스코, ‘세계에서 가장 경쟁력 있는
+                                            철강사’ 13년 연속 1위</span>
+                                        <span id="nR_container_inner_slide_wrap_slide_date">2022.12.13</span>
+                                    </div>
+                                    <div id="nR_container_inner_slide_wrap_slide" class="swiper-slide">
+                                        <img src="img/news_64.jpg" alt="" id="news_img">
+                                        <span id="nR_container_inner_slide_wrap_slide_subtitle">그린 투모로우(Green Tomorrow)
+                                            캠페인 3편 기고문 : 대화는 계속 ...</span>
+                                        <span id="nR_container_inner_slide_wrap_slide_date">2022.12.08</span>
+                                    </div>
+                                    <div id="nR_container_inner_slide_wrap_slide" class="swiper-slide">
+                                        <img src="img/news_63.jpg" alt="" id="news_img">
+                                        <span id="nR_container_inner_slide_wrap_slide_subtitle">K-직장인 포석호의 3D
+                                            VLOG</span>
+                                        <span id="nR_container_inner_slide_wrap_slide_date">2022.12.07</span>
+                                    </div>
+                                    <div id="nR_container_inner_slide_wrap_slide" class="swiper-slide">
+                                        <img src="img/news_62.jpg" alt="" id="news_img">
+                                        <span id="nR_container_inner_slide_wrap_slide_subtitle">포스코-포스코스틸리온, 포스아트 한국미술
+                                            레플리카 특별전 개최</span>
+                                        <span id="nR_container_inner_slide_wrap_slide_date">2022.12.05</span>
+                                    </div>
+                                    <div id="nR_container_inner_slide_wrap_slide" class="swiper-slide">
+                                        <img src="img/news_61.jpg" alt="" id="news_img">
+                                        <span id="nR_container_inner_slide_wrap_slide_subtitle">포스코그룹 최정우 회장, 호주 앤서니
+                                            앨버니지 총리 만나 친환경 미래 ...</span>
+                                        <span id="nR_container_inner_slide_wrap_slide_date">2022.12.01</span>
+                                    </div>
+                                    <div id="nR_container_inner_slide_wrap_slide" class="swiper-slide">
+                                        <img src="img/news_60.jpg" alt="" id="news_img">
+                                        <span id="nR_container_inner_slide_wrap_slide_subtitle">굴 껍데기로 철을 만든다?!</span>
+                                        <span id="nR_container_inner_slide_wrap_slide_date">2022.11.30</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="nR_btn_info">
+                        <span>POSCO Newsroom 바로가기</span>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <!--======================== newsRoom 페이지 끝===========================        -->
+
+        </div>
+        <div class="swiper-pagination main-page" id="btn"></div>
+    </div>
+    <div id="footer">
+        <div id="content">
+            <div id="footer_menu">
+                <dl id="footer_menu_1">
+
+                    <dt class="footer_menu_title">전체메뉴</dt>
+
+                    <dd>회사소개</dd>
+                    <dd>제품
+                        <div class="arrow"></div>
+                    </dd>
+                    <dd>ESG</dd>
+                    <dd>투자자정보</dd>
+                    <dd>인재채용
+                        <div class="arrow"></div>
+                    </dd>
+                    <dd>기업시민
+                        <div class="arrow"></div>
+                    </dd>
+                    <dd>신고센터</dd>
+                </dl>
+                <dl id="footer_menu_2">
+
+                    <dt class="footer_menu_title">홍보채널</dt>
+                    <dd>포스코 뉴스룸
+                        <div class="arrow"></div>
+                    </dd>
+                    <dd>미디어라이브러리</dd>
+                    <dd>문화행사</dd>
+                    <dd>견학신청</dd>
+
+                </dl>
+                <dl id="footer_menu_3">
+
+                    <dt class="footer_menu_title">고객지원</dt>
+                    <dd>FAQ</dd>
+                    <dd>문의하기</dd>
+                    <dd>사이트맵</dd>
+                    <dd>일일방문신청
+                        <div class="arrow"></div>
+                    </dd>
+                    <dd>장기출입신청
+                        <div class="arrow"></div>
+                    </dd>
+                    <dd>관련사이트</dd>
+
+                </dl>
+                <dl id="footer_menu_4">
+
+                    <dt class="footer_menu_title">찾아오시는 길</dt>
+                    <dd>포항</dd>
+                    <dd>광양</dd>
+                    <dd>서울/송도</dd>
+
+                </dl>
+            </div>
+            <div id="footer_util">
+                <div id="footer_util_container">
+                    <ul class="footer_util_ul">
+                        <li class="btn_youtube"></li>
+                        <li class="btn_in"></li>
+                        <li class="btn_facebook"></li>
+                        <li class="btn_insta"></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer_information">
+                <div>
+                    <span>이용약관 | <b>개인정보처리방침</b> | 영상정보처리기기 운영 ,관리 방침 | 이메일주소무단수집거부 | 사이트맵 | 회원가입 | 포스코 기업시민보고서
+                    </span>
+                </div>
+                <br>
+                <div>
+                    <span>
+                        (우)37859 경상북도 포항시 남구 동해안로 6261(포항시 남구 괴동동1) | 대표전화: 054-220-0114, 02-3457-0114
+                    </span>
+                </div>
+                <br>
+                <div>
+                    <span style="color: #999999;">
+                        (c) POSCO,ALL rights reserved
+                    </span>
+                </div>
+            </div>
+            <div id="footer_img">
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", { //웹 슬라이드 swiper
+            speed: 1000,
+            direction: "vertical",
+            slidesPerView: 1,
+            spaceBetween: 30,
+            mousewheel: true,
+
+            touchRatio: 0, //드래그 금지
+            pagination: {
+                el: ".main-page",
+                clickable: true,
+            },
+            on: {
+                reachEnd: function () {
+
+                    swiper.mousewheel.disable();
+                }
+            }
+        });
+
+
+        swiper.on('transitionEnd', function () {
+            let index = swiper.realIndex;
+            if (index >= 1) {
+                $("#top_header").css("border-bottom", "1px solid #eaeaea");
+                $("#top_header").css("background-color", "white");
+            }
+            else {
+                $("#top_header").css("border-bottom", "none");
+                $("#top_header").css("background-color", "transparent");
+            }
+        });
+
+
+        window.addEventListener('wheel', function (event) {
+            if (event.deltaY < 0) {
+                swiper.mousewheel.enable();
+            } else if (event.deltaY > 0) { }
+        });
+
+
+        let imgSlide = new Swiper(".imgSlide", { //1페이지 슬라이드 swiper
+            slidesPerView: 1,
+            effect: "fade",
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+
+            },
+            spaceBetween: 30,
+            loop: true,
+
+            touchRatio: 0, //드래그 금지
+            pagination: {
+                el: ".swiper-line",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        var footer = new Swiper(".footerSwiper", { //1페이지 footer swiper
+            direction: "vertical",
+            loop: true,
+            loopFillGroupWithBlank: true,
+
+            autoplay: {
+                delay: 4000,
+            },
+            navigation: {
+                nextEl: ".swiper-button-up",
+                prevEl: ".swiper-button-down",
+            },
+        });
+
+        var product = new Swiper(".productSwiper", { //2페이지 이미지 슬라이드 swiper
+            speed: 1000,
+            slideToClickedSlide: true,
+            navigation: {
+                nextEl: ".swiper-button-right",
+                prevEl: ".swiper-button-left",
+            },
+        });
+
+        var ESG = new Swiper(".ESGSwiper", {   //3페이지 이미지 슬라이드 swiper
+            loop: true,
+            speed: 500,
+            navigation: {
+                nextEl: ".swiper-button-esg-right",
+                prevEl: ".swiper-button-esg-left",
+            },
+        });
+
+        var news = new Swiper(".newsSwiper", {   //4페이지 이미지 슬라이드 swiper
+            spaceBetween: 35,
+            slidesPerView: 1,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+
+            },
+
+            loop: true
+
+        });
+
+        $("#btn_stop").click(function () {
+            $("#btn_stop").css("display", "none");
+            $("#btn_play").css("display", "block");
+            imgSlide.autoplay.stop();
+
+        });
+
+        $("#btn_play").click(function () {
+            $("#btn_stop").css("display", "block");
+            $("#btn_play").css("display", "none");
+            imgSlide.autoplay.start();
+        });
+
+        $(".btn_slide1").hover(function () {
+            $(this).css("background-color", "#5a5c60");
+            $(this).css("color", "white");
+            imgSlide.autoplay.stop();
+        }, function () {
+            $(this).css("background-color", "transparent ");
+            $(this).css("color", "black");
+            imgSlide.autoplay.start();
+        });
+
+        let flag = true;
+
+        $(".btn_down").click(function () {
+            if (flag == true) {
+                $(".language_ENG").css("top", "52px");
+                $(".language_ENG").fadeIn(500);
+                flag = false;
+                return;
+            } else {
+                $(".language_ENG").fadeOut(500);
+                flag = true;
+            }
+        });
+
+        $(".language_ENG").hover(function () {
+            $(this).css("border-bottom", "1px solid black");
+        }, function () {
+            $(this).css("border-bottom", "none");
+        });
+
+
+        $("#btn_search").click(function () {
+            $("#top_header").css("background-color", "white");
+            $("#header_search").slideDown(300);
+        });
+
+        $(".btn_close").click(function () {
+
+            $("#header_search").slideUp(150);
+            $("#top_header").css("background-color", "transparent");
+        });
+
+
+        let swiper_flag = true;
+
+        $("#btn_menu").click(function () {
+            $("#menu_all").slideDown(300);
+            console.log(swiper_flag);
+            swiper_flag = false;
+            swiper.mousewheel.disable();
+        });
+        
+
+        $("#menu_all_container_btn_close").click(function () {
+            $("#menu_all").slideUp(300);
+            console.log(swiper_flag);
+            swiper_flag = true;
+            swiper.mousewheel.enable();
+        });
+
+        let span_flag = true;
+
+        $("#menu_all_container_submenu_flag").click(function () {
+            if (span_flag == true) {
+
+                $(".sub_sub_hide").slideDown(300);
+                $("#menu_all_container_span_open").css("display", "none");
+                $("#menu_all_container_span_close").css("display", "block");
+                span_flag = false;
+                return;
+            } else {
+                $(".sub_sub_hide").slideUp(300);
+                $("#menu_all_container_span_open").css("display", "block");
+                $("#menu_all_container_span_close").css("display", "none");
+                span_flag = true;
+            }
+
+        });
+
+        $(".top_footer_textbox_text_text").hover(function () {
+            $(this).css("border-bottom", "1px solid white");
+            footer.autoplay.stop();
+        }, function () {
+            $(this).css("border-bottom", "none");
+            footer.autoplay.start();
+        });
+
+        $(".img").hover(function () {
+            $(this).css("width", "105%");
+            $(this).css("height", "105%");
+            $(this).css("transition", "0.5s");
+        }, function () {
+            $(this).css("width", "100%");
+            $(this).css("height", "100%");
+
+        });
+        let span_count = document.querySelector("#product_cnt_now");
+        let count = 1;
+        $("#product_btn_right").click(function () {
+            count += 1;
+            if (count >= 7) {
+                count = 7;
+            }
+            span_count.innerHTML = "0" + count;
+        });
+        $("#product_btn_left").click(function () {
+            count -= 1;
+            if (count <= 1) {
+                count = 1;
+            }
+            span_count.innerHTML = "0" + count; count;
+        });
+
+        let ESG_cnt_now = document.querySelector("#ESG_cnt_now");
+        let ESG_cnt = 1;
+        $("#ESG_container_inner_btn_right").click(function () {
+            ESG_cnt += 1;
+            if (ESG_cnt >= 4) {
+                ESG_cnt = 1;
+            }
+            ESG_cnt_now.innerHTML = "0" + ESG_cnt;
+        });
+        $("#ESG_container_inner_btn_left").click(function () {
+            ESG_cnt -= 1;
+            if (ESG_cnt <= 0) {
+                ESG_cnt = 3;
+            }
+            ESG_cnt_now.innerHTML = "0" + ESG_cnt;
+        });
+
+        $(".ESG_btn_info").hover(function () {
+            $(this).css("background-color", "#333333");
+            $(this).css("color", "white");
+        }, function () {
+            $(this).css("background-color", "white");
+            $(this).css("color", "#333333");
+        });
+
+        $("#down1").click(function(){
+            $("#up1").css("display","block");
+            $("#down1").css("display","none");
+            $("#sub1").slideDown(500);
+            $(".menu_li1 span").css("font-weight","bold");
+            $(".menu_li1 span").css("border-bottom","1px solid black");
+        });
+        $("#up1").click(function(){
+            $("#up1").css("display","none");
+            $("#down1").css("display","block");
+            $("#sub1").slideUp(500);
+            $(".menu_li1 span").css("font-weight","normal");
+            $(".menu_li1 span").css("border-bottom","none");
+        });
+
+        $("#down2").click(function(){
+            $("#up2").css("display","block");
+            $("#down2").css("display","none");
+            $("#sub2").slideDown(500);
+            $(".menu_li2 span").css("font-weight","bold");
+            $(".menu_li2 span").css("border-bottom","1px solid black");
+           
+        });
+        $("#up2").click(function(){
+            $("#up2").css("display","none");
+            $("#down2").css("display","block");
+            $("#sub2").slideUp(500);
+            $(".menu_li2 span").css("font-weight","normal");
+            $(".menu_li2 span").css("border-bottom","none");
+        });
+
+        
+        $("#down3").click(function(){
+            $("#up3").css("display","block");
+            $("#down3").css("display","none");
+            $("#sub3").slideDown(500);
+            $(".menu_li3 span").css("font-weight","bold");
+            $(".menu_li3 span").css("border-bottom","1px solid black");
+           
+        });
+        $("#up3").click(function(){
+            $("#up3").css("display","none");
+            $("#down3").css("display","block");
+            $("#sub3").slideUp(500);
+            $(".menu_li3 span").css("font-weight","normal");
+            $(".menu_li3 span").css("border-bottom","none");
+        });
+
+
+        $("#down4").click(function(){
+            $("#up4").css("display","block");
+            $("#down4").css("display","none");
+            $("#sub4").slideDown(500);
+            $(".menu_li4 span").css("font-weight","bold");
+            $(".menu_li4 span").css("border-bottom","1px solid black");
+           
+        });
+        $("#up4").click(function(){
+            $("#up4").css("display","none");
+            $("#down4").css("display","block");
+            $("#sub4").slideUp(500);
+            $(".menu_li4 span").css("font-weight","normal");
+            $(".menu_li4 span").css("border-bottom","none");
+        });
+
+
+        $("#down5").click(function(){
+            $("#up5").css("display","block");
+            $("#down5").css("display","none");
+            $("#sub5").slideDown(500);
+            $(".menu_li5 span").css("font-weight","bold");
+            $(".menu_li5 span").css("border-bottom","1px solid black");
+           
+        });
+        $("#up5").click(function(){
+            $("#up5").css("display","none");
+            $("#down5").css("display","block");
+            $("#sub5").slideUp(500);
+            $(".menu_li5 span").css("font-weight","normal");
+            $(".menu_li5 span").css("border-bottom","none");
+        });
+
+        
+        $("#down6").click(function(){
+            $("#up6").css("display","block");
+            $("#down6").css("display","none");
+            $("#sub6").slideDown(500);
+            $(".menu_li6 span").css("font-weight","bold");
+            $(".menu_li6 span").css("border-bottom","1px solid black");
+           
+        });
+        $("#up6").click(function(){
+            $("#up6").css("display","none");
+            $("#down6").css("display","block");
+            $("#sub6").slideUp(500);
+            $(".menu_li6 span").css("font-weight","normal");
+            $(".menu_li6 span").css("border-bottom","none");
+        });
+
+        $("#down7").click(function(){
+            $("#up7").css("display","block");
+            $("#down7").css("display","none");
+            $("#sub7").slideDown(500);
+            $(".menu_li7 span").css("font-weight","bold");
+            $(".menu_li7 span").css("border-bottom","1px solid black");
+           
+        });
+        $("#up7").click(function(){
+            $("#up7").css("display","none");
+            $("#down7").css("display","block");
+            $("#sub7").slideUp(500);
+            $(".menu_li7 span").css("font-weight","normal");
+            $(".menu_li7 span").css("border-bottom","none");
+        });
+
+        $("#down8").click(function(){
+            $("#up8").css("display","block");
+            $("#down8").css("display","none");
+            $("#sub8").slideDown(500);
+            $(".menu_li8 span").css("font-weight","bold");
+            $(".menu_li8 span").css("border-bottom","1px solid black");
+           
+        });
+        $("#up8").click(function(){
+            $("#up8").css("display","none");
+            $("#down8").css("display","block");
+            $("#sub8").slideUp(500);
+            $(".menu_li8 span").css("font-weight","normal");
+            $(".menu_li8 span").css("border-bottom","none");
+        });
+
+
+        $("#down9").click(function(){
+            $("#up9").css("display","block");
+            $("#down9").css("display","none");
+            $("#sub9").slideDown(500);
+            $(".menu_li9 span").css("font-weight","bold");
+            $(".menu_li9 span").css("border-bottom","1px solid black");
+           
+        });
+        $("#up9").click(function(){
+            $("#up9").css("display","none");
+            $("#down9").css("display","block");
+            $("#sub9").slideUp(500);
+            $(".menu_li9 span").css("font-weight","normal");
+            $(".menu_li9 span").css("border-bottom","none");
+        });
+
+
+        $("#down10").click(function(){
+            $("#up10").css("display","block");
+            $("#down10").css("display","none");
+            $("#sub10").slideDown(500);
+            $(".menu_li10 span").css("font-weight","bold");
+            $(".menu_li10 span").css("border-bottom","1px solid black");
+           
+        });
+        $("#up10").click(function(){
+            $("#up10").css("display","none");
+            $("#down10").css("display","block");
+            $("#sub10").slideUp(500);
+            $(".menu_li10 span").css("font-weight","normal");
+            $(".menu_li10 span").css("border-bottom","none");
+        });
+
+// submenu
+
+        $("#up3_1").click(function(){
+            $("#up3_1").css("display","none");
+            $("#down3_1").css("display","block");
+            $("#sub_sub_3_1").slideDown(500);
+           
+        });
+        $("#down3_1").click(function(){
+            $("#up3_1").css("display","block");
+            $("#down3_1").css("display","none");
+            $("#sub_sub_3_1").slideUp(500);
+
+        });
+
+        $("#up3_2").click(function(){
+            $("#up3_2").css("display","none");
+            $("#down3_2").css("display","block");
+            $("#sub_sub_3_2").slideDown(500);
+           
+        });
+        $("#down3_2").click(function(){
+            $("#up3_2").css("display","block");
+            $("#down3_2").css("display","none");
+            $("#sub_sub_3_2").slideUp(500);
+
+        });
+
+        $("#up3_3").click(function(){
+            $("#up3_3").css("display","none");
+            $("#down3_3").css("display","block");
+            $("#sub_sub_3_3").slideDown(500);
+           
+        });
+        $("#down3_3").click(function(){
+            $("#up3_3").css("display","block");
+            $("#down3_3").css("display","none");
+            $("#sub_sub_3_3").slideUp(500);
+
+        });
+
+        $("#up3_4").click(function(){
+            $("#up3_4").css("display","none");
+            $("#down3_4").css("display","block");
+            $("#sub_sub_3_4").slideDown(500);
+           
+        });
+        $("#down3_4").click(function(){
+            $("#up3_4").css("display","block");
+            $("#down3_4").css("display","none");
+            $("#sub_sub_3_4").slideUp(500);
+
+        });
+
+        $("#up4_1").click(function(){
+            $("#up4_1").css("display","none");
+            $("#down4_1").css("display","block");
+            $("#sub_sub_4_1").slideDown(500);
+           
+        });
+        $("#down4_1").click(function(){
+            $("#up4_1").css("display","block");
+            $("#down4_1").css("display","none");
+            $("#sub_sub_4_1").slideUp(500);
+
+        });
+        $("#up4_2").click(function(){
+            $("#up4_2").css("display","none");
+            $("#down4_2").css("display","block");
+            $("#sub_sub_4_2").slideDown(500);
+           
+        });
+        $("#down4_2").click(function(){
+            $("#up4_2").css("display","block");
+            $("#down4_2").css("display","none");
+            $("#sub_sub_4_2").slideUp(500);
+
+        });
+        $("#up4_3").click(function(){
+            $("#up4_3").css("display","none");
+            $("#down4_3").css("display","block");
+            $("#sub_sub_4_3").slideDown(500);
+           
+        });
+        $("#down4_3").click(function(){
+            $("#up4_3").css("display","block");
+            $("#down4_3").css("display","none");
+            $("#sub_sub_4_3").slideUp(500);
+
+        });
+
+
+        $("#up5_1").click(function(){
+            $("#up5_1").css("display","none");
+            $("#down5_1").css("display","block");
+            $("#sub_sub_5_1").slideDown(500);
+           
+        });
+        $("#down5_1").click(function(){
+            $("#up5_1").css("display","block");
+            $("#down5_1").css("display","none");
+            $("#sub_sub_5_1").slideUp(500);
+
+        });
+        
+        $("#up5_2").click(function(){
+            $("#up5_2").css("display","none");
+            $("#down5_2").css("display","block");
+            $("#sub_sub_5_2").slideDown(500);
+           
+        });
+        $("#down5_2").click(function(){
+            $("#up5_2").css("display","block");
+            $("#down5_2").css("display","none");
+            $("#sub_sub_5_2").slideUp(500);
+
+        });
+
+        $("#up5_3").click(function(){
+            $("#up5_3").css("display","none");
+            $("#down5_3").css("display","block");
+            $("#sub_sub_5_3").slideDown(500);
+           
+        });
+        $("#down5_3").click(function(){
+            $("#up5_3").css("display","block");
+            $("#down5_3").css("display","none");
+            $("#sub_sub_5_3").slideUp(500);
+
+        });
+
+        $("#up8_1").click(function(){
+            $("#up8_1").css("display","none");
+            $("#down8_1").css("display","block");
+            $("#sub_sub_8_1").slideDown(500);
+           
+        });
+        $("#down8_1").click(function(){
+            $("#up8_1").css("display","block");
+            $("#down8_1").css("display","none");
+            $("#sub_sub_8_1").slideUp(500);
+
+        });
+
+        $("#up8_2").click(function(){
+            $("#up8_2").css("display","none");
+            $("#down8_2").css("display","block");
+            $("#sub_sub_8_2").slideDown(500);
+           
+        });
+        $("#down8_2").click(function(){
+            $("#up8_2").css("display","block");
+            $("#down8_2").css("display","none");
+            $("#sub_sub_8_2").slideUp(500);
+
+        });
+
+        $("#up8_3").click(function(){
+            $("#up8_3").css("display","none");
+            $("#down8_3").css("display","block");
+            $("#sub_sub_8_3").slideDown(500);
+           
+        });
+        $("#down8_3").click(function(){
+            $("#up8_3").css("display","block");
+            $("#down8_3").css("display","none");
+            $("#sub_sub_8_3").slideUp(500);
+
+        });
+
+        $("#up9_1").click(function(){
+            $("#up9_1").css("display","none");
+            $("#down9_1").css("display","block");
+            $("#sub_sub_9_1").slideDown(500);
+           
+        });
+        $("#down9_1").click(function(){
+            $("#up9_1").css("display","block");
+            $("#down9_1").css("display","none");
+            $("#sub_sub_9_1").slideUp(500);
+
+        });
+
+        $("#up10_1").click(function(){
+            $("#up10_1").css("display","none");
+            $("#down10_1").css("display","block");
+            $("#sub_sub_10_1").slideDown(500);
+           
+        });
+        $("#down10_1").click(function(){
+            $("#up10_1").css("display","block");
+            $("#down10_1").css("display","none");
+            $("#sub_sub_10_1").slideUp(500);
+
+        });
+
+        
+    </script>
+</body>
+
+</html>
